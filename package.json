@@ -1,0 +1,20 @@
+{
+  "name": "patched-up",
+  "version": "1.0.0",
+  "description": "Find dependency versions with patched vulnerabilities",
+  "main": "src/index.js",
+  "bin": {
+    "patched-up": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "ora": "^8.1.1",
+    "semver": "^7.5.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
